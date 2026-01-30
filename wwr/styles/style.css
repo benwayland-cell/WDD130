@@ -38,7 +38,7 @@ a {
 
 .book, .join {
     color: white;
-    background-color: #8DA9C4;
+    background-color: #13315C;
     text-decoration: none;
     font-size: 18px;
     padding: 15px 30px;
@@ -47,7 +47,7 @@ a {
 }
 
 .book:hover, .join:hover {
-    color: #8DA9C4;
+    color: #13315C;
     background-color: white;
 }
 
@@ -142,9 +142,9 @@ main section img {
 }
 
 .card-img {
-    border: 10px solid #d9c2a3;
+    border: 10px solid #134074;
     transition: transform 0.5s;
-    box-shadow: 5px 5px 10px #6f7364;
+    box-shadow: 5px 5px 10px #134074;
 }
 
 .card-img:hover {
@@ -182,18 +182,18 @@ main section img {
     width: 100%;
     grid-column: 2/7;
     grid-row: 5/8;
-    box-shadow: 5px 5px 10px #6f7364;
+    box-shadow: 5px 5px 10px #8DA9C4;
 }
 
 .msg {
-    background-color: #6f7364;
+    background-color: #8DA9C4;
     line-height: 1.5em;
     padding-bottom: 15px;
     grid-column: 6/10;
     grid-row: 6/7;
     
     padding: 35px;
-    box-shadow: 5px 5px 10px #6f7364;
+    box-shadow: 5px 5px 10px #8DA9C4;
 }
 
 .msg h2 {
@@ -210,7 +210,7 @@ main section img {
 
 footer {
     background-color: #134074;
-    color: white;
+    color: #8DA9C4;
     padding: 25px 50px;
     margin-top: 200px;
     display: flex;
@@ -264,7 +264,7 @@ footer .social img {
         display: none;
     }
     #hero-msg h1 {
-        color: #6f7364;
+        color: black;
     }
     .home-title {
         font-size: 25px;
