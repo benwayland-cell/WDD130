@@ -1,0 +1,44 @@
+body {
+    background: #FFECD7;
+    font-family: Helvetica, sans-serif;
+}
+
+main {
+    background-color: #008DB1;
+    margin: auto;
+    width: 300px;
+    border-style: solid;
+    border-color: #004E63;
+    border-width: 5px;
+    border-radius: 30px;
+    padding: 15px;
+}
+
+h1 {
+    color: #FFFFFE;
+    text-align: center;
+}
+
+#subtitle {
+    color: #91E4FB;
+    text-align: center;
+}
+
+img {
+    display: block;
+    border-style: solid;
+    border-color: #FFFFFE;
+    border-width: 5px;
+    margin: auto;
+    width: 70%;
+}
+
+ul {
+    color: #FFFFFE;
+}
+
+#quote {
+    color: #FFD783;
+    font-family: "Brush Script MT";
+    margin: auto;
+}
