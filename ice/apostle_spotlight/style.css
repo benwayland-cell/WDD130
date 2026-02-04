@@ -35,6 +35,10 @@ img {
     clip-path: circle(50%);
 }
 
+img:hover {
+    border-color: black;
+}
+
 h1, h2 {
     font-weight: normal;
 }
