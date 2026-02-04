@@ -4,6 +4,37 @@ body {
     font-family: Arial;
 }
 
-/* main {
+main {
     background-image: url('images/christus.webp');
+    text-align: center;
+    color: white;
+    border-style: solid;
+    border-color: black;
+    border-width: 10px;
+    border-radius: 10px;
+
+    /* display: flex;
+    flex-direction: column; */
+    
+}
+
+img {
+    border-style: solid;
+    border-color: white;
+    border-width: 10px;
+    border-radius: 50%;
+    width: 100px;
+}
+
+#president {
+    width: 120px;
+}
+
+/* #first-presidency {
+    display: flex;
 } */
+
+#quorum-of-twelve {
+    display: flex;
+    flex-direction: column;
+}
