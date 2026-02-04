@@ -1,4 +1,6 @@
 
+/************** General **************/
+
 body {
     background-color: #E8ECED;
     font-family: Arial;
@@ -6,35 +8,75 @@ body {
 
 main {
     background-image: url('images/christus.webp');
+    background-position: -200px 0px;
+    background-size: 1000px;
+
     text-align: center;
     color: white;
+
     border-style: solid;
     border-color: black;
     border-width: 10px;
     border-radius: 10px;
 
-    /* display: flex;
-    flex-direction: column; */
-    
+    width: fit-content;
+    padding-left: 20%;
+    padding-right: 20%;
+    padding-bottom: 20px;
 }
 
 img {
     border-style: solid;
     border-color: white;
-    border-width: 10px;
+    border-width: 5px;
     border-radius: 50%;
-    width: 100px;
+
+    object-fit: cover;
+    clip-path: circle(50%);
 }
 
-#president {
-    width: 120px;
+h1, h2 {
+    font-weight: normal;
 }
 
-/* #first-presidency {
+h2 {
+    font-size: 20px;
+}
+
+/************** First Presidency **************/
+
+#first-presidency {
     display: flex;
-} */
+    justify-content: center;
+    align-items: end;
+    gap: 20px;
+}
+
+#first-presidency img {
+    width: 90px;
+    height: 90px;
+}
+
+#first-presidency #president {
+    width: 100px;
+    height: 100px;
+}
+
+/************** Quorumn of the Twelve **************/
 
 #quorum-of-twelve {
     display: flex;
     flex-direction: column;
+    gap: 20px;
+}
+
+#quorum-of-twelve div {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+#quorum-of-twelve img {
+    width: 60px;
+    height: 60px;
 }
