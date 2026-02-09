@@ -1,3 +1,5 @@
+/********************* General *********************/
+
 body {
   margin: 0;
   height: 100%;
@@ -10,6 +12,8 @@ body {
 .container {
   text-align: center;
 }
+
+/********************* Header *********************/
 
 .header {
   padding: 20px 0;
@@ -36,6 +40,8 @@ body {
   background: #00000055;
 }
 
+/********************* Main *********************/
+
 .content-box {
   background-color: white;
   margin: 30px auto;
@@ -44,4 +50,20 @@ body {
   padding: 40px;
   box-shadow: 5px 5px 0px black;
   min-height: 400px;
+}
+
+table {
+  text-align: left;
+  width: 90%;
+  margin: 10px auto;
+  border-collapse: collapse;
+  border-style: solid;
+  border-width: 1px;
+}
+
+th, td {
+  border-style: solid;
+  border-width: 1px;
+  text-align: left;
+  padding: 0.6em;
 }
