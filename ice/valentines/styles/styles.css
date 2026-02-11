@@ -1,1 +1,93 @@
-/* Add your CSS here to style your valentines day page */
+/*
+Author: Ben Wayland
+Class: WDD 130
+Date: 2/11/2026
+
+Citations:
+[0] https://fonts.googleapis.com
+
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=League+Script&display=swap');
+
+/*************************** General ***************************/
+
+body {
+  font-family: "League Script", cursive;
+  background-color: rgb(246, 4, 64);
+}
+
+/* #wrapper {
+    background-color: azure;
+} */
+
+/*************************** Header ***************************/
+
+header {
+    color: red;
+    background-color: pink;
+}
+
+/* Navigation */
+
+nav {
+    text-align: center;
+    padding: 10px;
+}
+
+ul {
+    /* margin: auto; */
+    /* padding: 10px; */
+    columns: 4;
+    column-gap: 40px;
+}
+
+li {
+    list-style: none;
+    border-style: solid;
+    border-width: 5px;
+    margin: auto;
+    padding: 10px;
+}
+
+/*************************** Main ***************************/
+
+main {
+    background-color: rgb(227, 83, 83);
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+h1 {
+    color: darkred;
+    grid-column: 2;
+    grid-row: 1;
+    text-align: center;
+}
+
+img {
+    width: 60%;
+    margin: auto;
+    grid-column: 1/4;
+    grid-row: 2;
+    border-style: solid;
+    border-width: 10px;
+    border-color: hotpink;
+}
+
+section {
+    background-color: white;
+    color: hotpink;
+    grid-row : 3;
+    padding: 10px;
+    margin: 10px;
+    border-style: solid;
+    border-width: 10px;
+}
+
+/*************************** Footer ***************************/
+
+footer {
+    background-color: pink;
+    padding: 10px;
+}
