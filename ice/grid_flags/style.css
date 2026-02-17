@@ -34,6 +34,9 @@ h2 {
     grid-column: 2/3;
 }
 
+
+/***************************** Chile *****************************/
+
 #blue {
     background: blue;
     grid-column: 1 / 2;
@@ -65,4 +68,98 @@ h2 {
     aspect-ratio: 1;
     background: white;
     clip-path: polygon(50% 0, 79% 90%, 2% 35%, 98% 35%, 21% 90%);
+}
+
+/***************************** Denmark *****************************/
+
+#denmark {
+    display: grid;
+    background-color: white;
+    height: 200px;
+    width: 300px;
+    grid-template-columns: 12fr 4fr 21fr;
+    grid-template-rows: 12fr 4fr 12fr;
+}
+
+#dred1 {
+    background-color: red;
+    grid-column: 1/2;
+}
+
+#dred2 {
+    background-color: red;
+    grid-column: 3/4;
+}
+
+#dred3 {
+    background-color: red;
+    grid-column: 1/2;
+    grid-row: 3/4;
+}
+
+#dred4 {
+    background-color: red;
+    grid-column: 3/4;
+    grid-row: 3/4;
+}
+
+/***************************** Finland *****************************/
+
+#finland {
+    display: grid;
+    background-color: blue;
+    height: 200px;
+    width: 300px;
+    grid-template-columns: 5fr 3fr 10fr;
+    grid-template-rows: 4fr 3fr 4fr;
+}
+
+#fwhite1 {
+    background-color: white;
+    grid-column: 1/2;
+}
+
+#fwhite2 {
+    background-color: white;
+    grid-column: 3/4;
+}
+
+#fwhite3 {
+    background-color: white;
+    grid-column: 1/2;
+    grid-row: 3/4;
+}
+
+#fwhite4 {
+    background-color: white;
+    grid-column: 3/4;
+    grid-row: 3/4;
+}
+
+/***************************** Benin *****************************/
+
+#benin {
+    display: grid;
+    height: 200px;
+    width: 300px;
+    grid-template-columns: 6fr 9fr;
+    grid-template-rows: 5fr 5fr;
+}
+
+#bgreen {
+    background-color: green;
+    grid-column: 1/2;
+    grid-row: 1/3;
+}
+
+#byellow {
+    background-color: yellow;
+    grid-column: 2/3;
+    grid-row: 1/2;
+}
+
+#bred {
+    background-color: red;
+    grid-column: 2/3;
+    grid-row: 2/3;
 }
