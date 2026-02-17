@@ -1,3 +1,19 @@
+/*
+Author: Ben Wayland
+Class: WDD 130
+Date: 2/17/2026
+
+Citations:
+[0] https://en.wikipedia.org/wiki/File:Flag_of_Chile_(construction_sheet).svg
+[1] https://commons.wikimedia.org/wiki/File:Flag_of_Denmark_(construction_sheet).svg
+[2] https://en.wikipedia.org/wiki/File:Flag_of_Finland_(construction_sheet).svg
+[3] https://en.wikipedia.org/wiki/File:Flag_of_Benin_(construction_sheet).svg
+[4] https://commons.wikimedia.org/wiki/File:Flag_of_Italy_(construction_sheet).svg
+[5] https://ia.wikipedia.org/wiki/File:Flag_of_the_Central_African_Republic_(construction_sheet).svg
+
+*/
+
+
 body {
     margin: 0;
     font-family: 'Helvetica Neue', sans-serif;
@@ -162,4 +178,75 @@ h2 {
     background-color: red;
     grid-column: 2/3;
     grid-row: 2/3;
+}
+
+/***************************** Italy *****************************/
+
+#italy {
+    background-color: white;
+    display: grid;
+    height: 200px;
+    width: 300px;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+#igreen {
+    background-color: green;
+    grid-column: 1/2;
+}
+
+#ired {
+    background-color: red;
+    grid-column: 3/4;
+}
+
+/***************************** Italy *****************************/
+
+#car {
+    display: grid;
+    height: 200px;
+    width: 300px;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(4, 1fr);
+}
+
+.cred {
+    background-color: red;
+    width: 50px;
+    grid-column: 2/3;
+}
+
+#cblue {
+    display: grid;
+    grid-template-columns: 5.5fr 9fr 10.5fr 10fr 25fr;
+    background-color: blue;
+}
+
+#cwhite {
+    display: grid;
+    grid-template-columns: 25fr 10fr 25fr;
+    background-color: white;
+}
+
+#cgreen {
+    display: grid;
+    grid-template-columns: 25fr 10fr 25fr;
+    background-color: green;
+}
+
+#cyellow {
+    display: grid;
+    grid-template-columns: 25fr 10fr 25fr;
+    background-color: yellow;
+}
+
+#cblue .cred {
+    grid-column: 4/5;
+}
+
+#cblue .star {
+    width: 45px;
+    background: yellow;
+    grid-column: 2/3;
+    margin: auto;
 }
