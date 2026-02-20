@@ -1,8 +1,105 @@
+/******************************* General *******************************/
 
 body {
+    background-color: #13315C;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0;
 }
 
 h1 {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    color: #EEF4ED;
+}
+
+.logo {
+    width: 100px;
+}
+
+/******************************* Header *******************************/
+
+header {
+    background-color: #8DA9C4;
+    display: grid;
+    grid-template-columns: 200px 1fr;
+    padding: 20px;
+}
+
+/* Navigation */
+nav ul {
+    background-color: black;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    list-style-type: none;
+    column-gap: 5px;
+    padding: 5px;
+}
+
+nav ul li {
+    background-color: #134074;
+    text-align: center;
+    padding: 10px;
+}
+
+nav ul a {
+    text-decoration: none;
+    color: #EEF4ED;
+}
+
+nav ul li:hover {
+    background-color: #EEF4ED;
+}
+
+nav ul a:hover {
+    color: #134074;
+}
+
+/******************************* Main *******************************/
+
+main {
+    margin: 50px;
+}
+
+/* Link Images */
+#link-images {
+    display: grid;
+    grid-template-columns: repeat(3, 33.3%);
+    text-align: center;
+    justify-items: center;
+}
+
+#link-images a div {
+    padding: 20px;
+    background-color: #8DA9C4;
+}
+
+#link-images a {
+    color: #134074;
+    text-align: center;
+    text-decoration: none;
+}
+
+#link-images a div:hover {
+    background-color: #134074;
+}
+
+#link-images a:hover {
+    color: #8DA9C4;
+}
+
+/******************************* Footer *******************************/
+
+footer {
+    background-color: #8DA9C4;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 400px 1fr;
+    padding: 20px;
+}
+
+#copyright {
+    margin-top: auto;
+    margin-bottom: auto;
 }
