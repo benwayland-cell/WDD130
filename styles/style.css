@@ -60,6 +60,8 @@ main {
     margin: 50px;
 }
 
+/******* Index *******/
+
 /* Link Images */
 #link-images {
     display: grid;
@@ -84,6 +86,26 @@ main {
 }
 
 #link-images a:hover {
+    color: #8DA9C4;
+}
+
+/******* ICE *******/
+.ice-challenge {
+    background-color: #8DA9C4;
+    padding: 20px;
+    margin: 20px;
+}
+
+.ice-challenge a {
+    text-decoration-color: #EEF4ED;
+}
+
+.ice-challenge a:hover {
+    text-decoration-color: #8DA9C4;
+}
+
+.ice-challenge a h2:hover {
+    background-color: #EEF4ED;
     color: #8DA9C4;
 }
 
