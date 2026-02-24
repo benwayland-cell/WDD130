@@ -6,7 +6,7 @@ body {
     margin: 0;
 }
 
-h1 {
+h1, h2 {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
     color: #EEF4ED;
@@ -91,9 +91,6 @@ main {
 
 footer {
     background-color: #8DA9C4;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
     display: grid;
     grid-template-columns: 400px 1fr;
     padding: 20px;
