@@ -9,46 +9,57 @@
 </head>
 
 <body>
-    <div id="formContainer">
+    <main>
         <div id="titleDiv">
             <h1>Daily Feed</h1>
             <h2>Scriptures a Day</h2>
         </div>
-        <h3>Sign Up for Daily Scripture Feed</h3>
-        <form id="myForm">
-            <button type="button" id="closeBtn">X</button>
-            <label for="username">User Name:</label>
-            <input type="text" id="username" name="username" required>
 
-            <label for="password">Password:</label>
-            <input type="password" id="password" name="password" required>
+        <div id="formContainer">
+            <h3>Sign Up for Daily Scripture Feed</h3>
+            <form id="myForm">
+                <button type="button" id="closeBtn">X</button>
+                <label for="username">User Name:</label>
+                <input type="text" id="username" name="username" required>
 
-            <label for="email">Email:</label>
-            <input type="email" id="email" name="email" required>
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" required>
 
-            <label>Gender:</label>
-            <div>
-                <input type="radio" id="male" name="gender" value="male" required>
-                <label for="male">Male</label>
-                <input type="radio" id="female" name="gender" value="female" required>
-                <label for="female">Female</label>
-            </div>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
 
-            <section>
-                <input type="checkbox" id="newsletter" name="newsletter">
-                <label for="newsletter">Subscribe to newsletter</label>
-            </section>
+                <label>Gender:</label>
+                <div>
+                    <input type="radio" id="male" name="gender" value="male" required>
+                    <label for="male">Male</label>
+                    <input type="radio" id="female" name="gender" value="female" required>
+                    <label for="female">Female</label>
+                </div>
 
-            <section>
-                <input type="checkbox" id="conditions" name="conditions" required>
-                <label for="conditions">I acknowledge the terms and conditions</label>
-            </section>
+                <section>
+                    <input type="checkbox" id="newsletter" name="newsletter">
+                    <label for="newsletter">Subscribe to newsletter</label>
+                </section>
 
-            <section>
-                <button type="submit">Submit</button>
-            </section>
-        </form>
-    </div>
+                <section>
+                    <input type="checkbox" id="conditions" name="conditions" required>
+                    <label for="conditions">I acknowledge the terms and conditions</label>
+                </section>
+
+                <section>
+                    <button type="submit">Submit</button>
+                </section>
+            </form>
+        </div>
+
+        <div id="scriptureImages">
+            <img src="images/old_testament.webp" alt="Old Testament">
+            <img src="images/new_testament.webp" alt="New Testament">
+            <img src="images/book_of_mormon.webp" alt="Book of Mormon">
+            <img src="images/doctrine_and_covenants.webp" alt="Doctrine & Covenants">
+            <img src="images/pearl_of_great_price.webp" alt="Pearl of Great Price">
+        </div>
+    </main>
 
     <div id="output"></div>
 
