@@ -114,6 +114,13 @@ main {
     color: #8DA9C4;
 }
 
+/******* About Me *******/
+
+#about-me-para {
+    padding: 20px;
+    background-color: #8DA9C4;
+}
+
 /******************************* Footer *******************************/
 
 footer {
