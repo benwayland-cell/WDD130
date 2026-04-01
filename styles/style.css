@@ -99,6 +99,15 @@ main {
     border-width: 5px;
 }
 
+/* Report */
+#report-section {
+    text-align: center;
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #8DA9C4;
+}
+
+
 /******* ICE *******/
 
 .ice-challenge {
