@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feed</title>
+    <link rel="stylesheet" href="feed.css">
+</head>
+<body>
+    <header>
+        <img src="./images/Hopecore Logo.png" alt="Logo image" class="logo">
+        <p id="nav-logo">Hopecore</p>
+        <!--Nav contains links-->
+        <nav id="header-nav">
+            <a class="brdr-right nav-link" href="#">Features</a>
+            <a class="brdr-right nav-link" href="#">About</a>
+            <a class="brdr-right nav-link" href="#">Testimonials</a>
+            <a class="brdr-right nav-link" href="#">Download</a>
+            <a class="nav-link" href="#">Contact</a>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Where the user can make a post -->
+        <section id="make-post">
+            <form id="post-form">
+                <input type="text" id="post-text" name="post-text" placeholder="Share something hopeful today...">
+                <button type="submit-post">Post</button>
+            </form>
+        </section>
+
+        <!-- Posts made by other people -->
+        <section id="posts">
+
+            <section class="post">
+                <h2>Marcus T.</h2>
+                <h3>2 hours ago · Public</h3>
+                <p>
+                    "Three years ago I couldn't leave my house. Today I ran my first 5K.
+                    The finish line was the most beautiful thing I've ever seen."
+                </p>
+            </section>
+
+            <section class="post">
+                <h2>Lena K.</h2>
+                <h3>5 hours ago · Community: Creativity</h3>
+                <p>
+                    Just finished the mural I've been working on for six months. It covers an entire
+                    wall of the community center in my neighborhood. Art really does heal — both the
+                    maker and the people who see it.
+                </p>
+                <img>
+            </section>
+
+            <section class="post">
+                <h2>Dev R.</h2>
+                <h3>Yesterday · Public</h3>
+                <p>
+                    Reminder: you don't have to have it all figured out. You just have to take the next
+                    small step. That's it. That's the whole thing.
+                </p>
+            </section>
+
+            <section class="post">
+                <h2>Hopecore Official</h2>
+                <h3>2 days ago · Featured</h3>
+                <p>
+                    This week's featured story: A former refugee who became a teacher —
+                    and went back to build a school in her hometown.
+                </p>
+                <img>
+            </section>
+
+        </section>
+    </main>
+
+    <footer>
+        <!-- A div for the download section in the footer to make it easier for CSS-->
+        <div id="download">
+            <h2 id="download-h">Download the mobile app for free</h2>
+            <p id="download-p">
+                Stay connected to hope wherever you go! Our app brings daily inspiration, 
+                uplifting content, and exclusive features straight to your phone—completely free. 
+                Tap below to join our growing community and make positivity a part of every day.
+            </p>
+            <a href="" id="appstore"><img src="images/appstore-img.webp" alt="Appstore link" id="appstore-img"></a>
+            <a href="" id="googleplay"><img src="images/googleplay-img.webp" alt="Googleplay link" id="googleplay-img"></a>
+        </div>
+        <nav id="footer-nav">
+            <a class="brdr-right nav-link" href="#">Features</a>
+            <a class="brdr-right nav-link" href="#">About</a>
+            <a class="brdr-right nav-link" href="#">Testimonials</a>
+            <a class="brdr-right nav-link" href="#">Download</a>
+            <a class="nav-link" href="#">Contact</a>
+        </nav>
+        <div id="bottom-line"> </div>
+        <p id="address">198 S Center St, Rexburg, ID 83440</p>
+        <p id="copyright">  &copy; 2026 Hopecore All rights reserved.</p>
+    </footer>   
+</body>
+</html>
