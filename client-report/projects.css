@@ -1,5 +1,14 @@
 
+main {
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+}
+
 section {
     background-color: #8DA9C4;
     text-align: center;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
 }
