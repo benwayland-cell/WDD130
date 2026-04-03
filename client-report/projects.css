@@ -1,4 +1,8 @@
 
+h3 {
+    color: white;
+}
+
 #links {
     display: flex;
     flex-direction: column;
@@ -11,4 +15,9 @@
     padding: 10px;
     display: flex;
     flex-direction: column;
+}
+
+#general-reflection {
+    background-color: #8DA9C4;
+    padding: 20px;
 }
