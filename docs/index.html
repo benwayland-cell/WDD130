@@ -1,6 +1,82 @@
-<html>
-  <body>
-    <h1>Hello World</h1>
-  </body>
-  
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ben Wayland WDD 130</title>
+    <link rel="stylesheet" href="styles/style.css">
+    <style>
+        /* This is to make the footer go to the bottom of the screen */
+        footer {
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    
+    <header>
+        <a href="index.html"><img src="images/logo.png" alt="logo" class="logo"></a>
+
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="wwr/index.html" target="_blank">WWR</a></li>
+                <li><a href="ice.html">ICE</a></li>
+                <li><a href="client-report/projects.html">Projects</a></li>
+                <li><a href="about-me.html">About Me</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h1>Ben Wayland's Portfolio</h1>
+        
+        <section id="link-images">
+            <a href="wwr/index.html" target="_blank"><div>
+                <img src="images/wwr-small-img.png" alt="A screenshot of the White Water Rafting Page">
+                <p>WWR</p>
+            </div></a>
+            <a href="ice.html"><div>
+                <img src="images/ice-small-img.png" alt="A screenshot of an ICE challenge">
+                <p>ICE</p>
+            </div></a>
+            <a href="about-me.html"><div>
+                <img src="images/about-me-small-img.png" alt="A screenshot of the About Me page">
+                <p>About Me</p>
+            </div></a>
+        </section>
+
+    </main>
+
+    <footer>
+        <form>
+            <table>
+                <tr>
+                    <th>Contact Me</th>
+                    <th></th>
+                </tr>
+                <tr>
+                    <td>Name:</td>
+                    <td><input type="text" id="name" name="name"></td>
+                </tr>
+                <tr>
+                    <td>Email:</td>
+                    <td><input type="text" id="email" name="email"></td>
+                </tr>
+                <tr>
+                    <td>Message:</td>
+                    <td><input type="text" id="message" name="message"></td>
+                </tr>
+                <tr>
+                    <td><input type="submit" value="Submit"></td>
+                    <td></td>
+                </tr>
+            </table>
+        </form>
+        <p id="copyright">WDD 130 © 2026 - Ben Wayland</p>
+    </footer>
+
+</body>
 </html>
